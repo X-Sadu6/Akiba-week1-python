@@ -1,0 +1,10 @@
+Student_Name = input("Enter your name:").strip().title()
+Python_Score = int(input("Enter your python score:"))
+English_Score = int(input("Enter your english score:"))
+Mathematics_Score = int(input("Enter your mathematics score:"))
+print(f"Student Name:{Student_Name}")
+print(f"Python Score:{Python_Score}")
+print(f"English Score:{English_Score}")
+print(f"Mathematics Score:{Mathematics_Score}")
+Average_Score = (Python_Score + English_Score +Mathematics_Score)/3
+print(f"Average Score:{Average_Score}")
