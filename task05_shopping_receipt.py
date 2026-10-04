@@ -1,0 +1,8 @@
+Customer_Name = input("Enter your name:").strip().title()
+Product_Name = input("Enter the product name:").strip().title()
+Price = float(input("Enter the price of the product:"))
+Quantity = int(input("Enter the quantity of the product:"))
+print(f"Customer Name:{Customer_Name}")
+print(f"Product Name:{Product_Name}")
+print(f"Price:{Price}")
+print(f"Quantity:{Quantity}")
