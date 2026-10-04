@@ -1,0 +1,8 @@
+Name = input("Enter your name:").strip().title()
+Weight_in_Kg = float(input("Enter your weight in kg:"))
+Height_in_M = float(input("Enter your height in meters:"))
+BMI = Weight_in_Kg / (Height_in_M ** 2)
+print(f"Name:{Name}")
+print(f"Weight in kg:{Weight_in_Kg}")
+print(f"Height in meters:{Height_in_M}")
+print(f"Body Mass Index(BMI):{BMI}")
